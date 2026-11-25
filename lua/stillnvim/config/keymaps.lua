@@ -14,3 +14,6 @@ vim.keymap.set("n", "<leader>x", "<cmd>wq<CR>", {
 vim.keymap.set("n", "<leader>/", "<cmd>nohlsearch<CR>", {
     desc = "Clear search highlights"})
 
+-- Toggle file explorer
+vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", {
+    desc = "Toggle file explorer"})

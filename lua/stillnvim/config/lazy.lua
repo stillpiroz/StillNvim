@@ -49,3 +49,6 @@ end
 
 -- Add lazy.nvim to runtime path
 vim.opt.rtp:prepend(lazypath)
+
+-- Setup plugins
+require("lazy").setup("plugins")
